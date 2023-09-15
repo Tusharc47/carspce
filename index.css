@@ -1,0 +1,46 @@
+body,html{
+
+	height: 100%;
+	overflow: hidden;
+	 background: -webkit-linear-gradient(rgba(0, 0,0, 0.9), rgba(0, 0, 10, 1)), url("background.jpg");
+	 background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-family: Sinkin Sans;
+}
+h2{
+	color: #ff0000;
+	letter-spacing: 0.5em;
+	font-family: Neuropol;
+}
+.nav {
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.6);
+  
+}
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  text-shadow: 2px 2px 5px #fff;
+  font-size: 19px; 
+  
+}
+
+.nav a.active {
+  color:rgb(255,10,0);
+  font-size: 20px;
+}
+img{
+	width: 600px;
+	height: 400px;
+	float: right;
+	margin-right: 100px;
+}
